@@ -1,12 +1,21 @@
 # auto_down_forwin
+- 윈도우 설치 이후 한번에 여러 프로그램을 설치
 
-### 윈도우 설치 이후 필수 프로그램(주관적)을 자동으로 설치 하는게 목적
+## 사용 방법
 
-23.02.01 - explorer 명령어를 활용해 단순히 미리 만들어놓은 명령어를 실행해 다운로드(자동 설치는(x)) -> 일일히 수동 실행 필요
+1. `Window + R` 키를 눌러 실행 창을 엽니다.
+2. 실행 창에 ` powershell `을 입력한 후 `Ctrl + Shift` 키를 누른 상태에서 `Enter` 혹은 `확인`버튼을 누릅니다.
+3. 아래의 명령어를 우측의 복사 버튼 클릭 or 드래그하여 복사 한 후 실행된 Powershell에 붙여넣고 실행한다.
+    ```
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    ```
+4. 3과 동일하게 아래의 명령어를 복사 후 붙여넣으면 하단의 **Program List**에 포함된 프로그램들이 설치된다.
+
+
 
 https://www.fmkorea.com/5481328543 // 최초 발상 근원지
 
-https://forgiveall.tistory.com/455 // 초코를 이용한 패키지 설치 가이드
+*** https://forgiveall.tistory.com/455 // 초코를 이용한 패키지 설치 가이드 *** <-- 이걸로 만들면 쌉가능일듯
 
 https://chocolatey.org/install // 초코를 shell 프로그램으로 설치
 
@@ -26,9 +35,6 @@ https://dololak.tistory.com/665 // 초코 관련 설명
 1. github링크를 통해서 접근해서 다운
 2. github로 블로그 만들어서 게시글....?
 
-
-## auto_downloader.bat 실행 시 자동으로 설치 파일 다운로드, 이후 개별 설치 필요
-
 ### 포함된 프로그램 및 파일 목록
 1. 카카오톡 / 메신저
 2. 팟플레이어 / 미디어 플레이어
@@ -44,6 +50,8 @@ https://dololak.tistory.com/665 // 초코 관련 설명
 12. VSCODE / IDE
 13. Notion / 기록 툴
 14. Logitech G Hub / 로지텍 기기 제어용
+15. Steam
+16. Origin
 15. Game_list.txt / 게임 관련 프로그램의 링크들
 
 ### Game_list
