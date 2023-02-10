@@ -4,9 +4,16 @@
 
 23.02.01 - explorer 명령어를 활용해 단순히 미리 만들어놓은 명령어를 실행해 다운로드(자동 설치는(x)) -> 일일히 수동 실행 필요
 
-https://www.fmkorea.com/5481328543
+https://www.fmkorea.com/5481328543 // 최초 발상 근원지
 
-https://forgiveall.tistory.com/455
+https://forgiveall.tistory.com/455 // 초코를 이용한 패키지 설치 가이드
+
+https://chocolatey.org/install // 초코를 shell 프로그램으로 설치
+
+https://dololak.tistory.com/665 // 초코 관련 설명
+
+### 현재 구상 순서
+- git hub를 이용해 간단한 링크 접속 후 초코 설치 -> 패키지 설치 -> batch 파일로 일괄 다운로드 후 개별 설치 -> 게임 관련 링크 파일 다운로드
 
 - 위 링크를 참고해서 chocolatey(이하 초코)를 이용해 초코 패키지에 포함된 프로그램들은 자동 다운로드 후 설치
 - 초코 패키지에 없는 프로그램의 경우 batch파일을 이용해 일괄 다운로드 후 수동 설치 -> 패키지 리스트와 프로그램 목록 비교하여 확인
