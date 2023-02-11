@@ -4,7 +4,7 @@
 ## 사용 방법
 
 1. `Window + R` 키를 눌러 실행 창을 엽니다.
-2. 실행 창에 ` powershell `을 입력한 후 `Ctrl + Shift` 키를 누른 상태에서 `Enter` 혹은 `확인`버튼을 누릅니다.
+2. 실행 창에 ` cmd `을 입력한 후 `Ctrl + Shift` 키를 누른 상태에서 `Enter` 혹은 `확인`버튼을 누릅니다.
 3. 아래의 명령어를 우측의 복사 버튼 클릭 or 드래그하여 복사 한 후 실행된 Powershell에 붙여넣고 실행한다.
     ```
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
