@@ -8,7 +8,7 @@
     ```
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
     ```
-3. auto_installer.bat를 관리자 권한으로 실행
+3. [auto_installer.bat](batch_file/auto_installer.bat)를 관리자 권한으로 실행
     - chocolatey 업그레이드를 하겠냐고 물어볼 경우 y를 입력
     - 프로그램 일괄 설치를 묻는 메세지가 나올 경우 a 혹은 y를 입력
 4. 10~20분 정도 이후 일괄 설치 완료
