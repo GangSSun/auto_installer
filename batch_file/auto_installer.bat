@@ -10,7 +10,7 @@ echo ::
 echo :: Basic Programs
 echo ::
 echo ::::::::::::::::::::::::::::::::::::::::::::::::::
-choco install -y kakaotalk potplayer googlechrome honeyview bandizip everything qbittorrent qttabbar 
+choco install -y kakaotalk potplayer googlechrome honeyview bandizip qbittorrent
 
 echo 
 echo ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -18,7 +18,7 @@ echo ::
 echo :: Programming tools
 echo ::
 echo ::::::::::::::::::::::::::::::::::::::::::::::::::
-choco install -y apache-netbeans.portable slack vscode notion 
+choco install -y vscode notion visualstudio2022community notepadplusplus
 
 echo 
 echo ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -26,7 +26,7 @@ echo ::
 echo :: Game Programs
 echo ::
 echo ::::::::::::::::::::::::::::::::::::::::::::::::::
-choco install -y discord steam origin lghub
+choco install -y discord steam lghub logioptionsplus
 
 echo 
 echo ::::::::::::::::::::::::::::::::::::::::::::::::::
